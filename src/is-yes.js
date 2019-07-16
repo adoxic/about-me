@@ -1,14 +1,14 @@
 function isYes(text) {
     text = text.toLowerCase();
-    if(text === 'banana') {
+    if(text === 'yes') {
         return true;
-    }
-    else if(text === 'nana') {
-        return true;
-    }
+    } 
     else {
         return false;
     }
 }
+
+
+
 
 export default isYes;
