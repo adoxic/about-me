@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet'> */
+
+
+body {
+    background-color: yellow;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1, {
+    
+    font-family: 'Oswald';
+    color:blue;
+    font-style: bold;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 35px;
+    font-family: 'Oswald';
+    color: pink;
+    font-style: italic;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 50px;
+
+}
+
+img {
+
+    padding: 50px;
+    
+
+    
+
+
+}
+
+p {
+    color:black;
+    padding-left: 50px;
+
+}
+/* .profile {
+    float: left;
+    margin-right: 20px;
+    height: 200px;
+} */
+
+.border {
+    background-color: blue;
+    width: 500px;
+
+
+    
+
+}
+
+.about-me-1 {
+    text-align: right;
+    color: pink;
+    
+}
+
+ul {
+    padding-left:100px;
+}
+
+ol {
+    padding-left: 100px;
+}
+.about-me {
+    background-color: aqua;
+}
+
+button {
+    border: 1px solid steelblue;
+    height: 30px;
+    width: 100px;
+    font-size: 1.2em;
+    
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
