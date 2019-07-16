@@ -2,7 +2,18 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
+    background: #77D9F0;
 }
+
+body, html {
+    height: 100vh;
+}
+.wrapper {
+    width:90%;
+    margin: 0 auto;
+    display: grid;
+}
+
 
 h1,h2 {
     font-family: 'Oswald';
