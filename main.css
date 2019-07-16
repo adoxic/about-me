@@ -1,21 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet');
 
 body {
-    font-family: 'DM Sans', sans-serif;
-    background: #77D9F0;
+    font-family: 'Heebo', sans-serif;
 }
 
-body, html {
-    height: 100vh;
-}
-.wrapper {
-    width:90%;
-    margin: 0 auto;
-    display: grid;
-}
-
-
-h1,h2 {
+h1, h2 {
     font-family: 'Oswald';
 }
 
@@ -23,11 +12,10 @@ h1,h2 {
     float: left;
     margin-right: 20px;
     height: 200px;
-
 }
 
 button {
-    border; 1px solid pink;
+    border: 1px solid steelblue;
     height: 30px;
     width: 100px;
     font-size: 1.2em;
@@ -38,5 +26,5 @@ button {
 }
 
 .good {
-    color:green;
+    color: green;
 }
