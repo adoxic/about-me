@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/guess.css">
 </head>
 <body>
-    
+    <header>
+        <h1>
+            Number Guessing Game
+        </h1>
+        <nav>
+            <a href="./">Home</a>
+            <a href="guess.html">Speakers</a>
+        </nav>
+    </header>
+
+    <main>
+            <h2>Can you guess the number?</h2
+        <p>
+            <input type="number-input" name="enter number">
+            <br>
+            <br>
+            <button id="submit-btn">Submit Guess</button>
+            <br>
+        </p>
+        <p>
+            <!-- Current Number: <span id="number-display"></span> -->
+        </p>
+        <p>
+            <img id="correctImage" class="correct-guess-happy hidden" src="assets/correct-guess-happy.jpeg">
+        </p>
+    </main>
+
+    <script type"module" src="src/guess.js"</script>
 </body>
 </html>
+    

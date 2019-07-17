@@ -1,3 +1,5 @@
+//About me Lab 02
+
 import isYes from './is-yes.js';
 
 const quizButton = document.getElementById('quiz-button');

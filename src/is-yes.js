@@ -1,3 +1,4 @@
+//About me Lab 02
 function isYes(text) {
     text = text.toLowerCase();
     if(text === 'yes') {
