@@ -22,17 +22,18 @@
     <main>
             <h2>Can you guess the number?</h2
         <p>
-            <input type="number-input" name="enter number">
+            <input type="number" id="number-input">
             <br>
             <br>
-            <button id="submit-btn">Submit Guess</button>
+            <button id="SubmitBtn">Submit Guess</button>
             <br>
         </p>
         <p>
-            <!-- Current Number: <span id="number-display"></span> -->
+            <span id="message"></span> 
         </p>
         <p>
-            <img id="correctImage" class="correct-guess-happy hidden" src="assets/correct-guess-happy.jpeg">
+            <img id="correct-image" class="hidden" src="assets/correct-guess-happy.jpeg">
+            <img id="incorrect-image" class="hidden" src="assets/incorrect-guess-sad.png">
         </p>
     </main>
 
