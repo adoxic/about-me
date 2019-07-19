@@ -1,15 +1,15 @@
-{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+html {
+   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(156, 104, 104);
 }
 
 header {
    background: pink;
 }
 
-header > h1 {
-   color: red;
-   text-align: center;
+h1 {
+   color:rgb(156, 104, 104);;
    font-family: 'Courier New', Courier, monospace;
 }

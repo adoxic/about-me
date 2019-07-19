@@ -5,33 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rock, Paper, Scissors</title>
-    <link rel="stylesheet" href="src/main.css">
-    <link rel="stylesheet" href="src/guess.css">
-    <link rel="stylesheet" href="src/rock-paper-scissors.css">
+    <link rel="stylesheet" href="rps-src/rps.css">
 
 </head>
+
 <body>
     <header>
         <h1>Rock, Paper, Scissors!</h1>
+
         <nav>
-            <a href="./">Home</a>
+            <a href="index.html">Home</a>
             <a href="guess.html">Guessing Game</a>
             <a href="rock-paper-scissors.html"></a>
         </nav>
     </header>
+
     <main>
         <h2>Ready , set, choose your fighter!</h2>
+
+        <p class="items">
+            <label>
+                <img id="item" src="assets/rock.png">
+
+                <input class="hidden-button" type="radio" name="actions"
+                value="rock">
+            </label>
+
+            <label>
+                <img id="item" src="assets/paper.png">
+
+                <input class="hidden-button" type="radio" name="actions" 
+                value="paper">
+            </label>
+
+            <label>
+                <img id="item" src="assets/scissors.png">
+                <input class="hidden-button" type="radio" name="actions"
+                value="scissors">
+            </label>
+        </p>
+
         <p>
-            <img id="item" src="assets/rock.png">
-            <img id="item" src="assets/paper.png">
-            <img id="item" src="assets/scissors.png">
+            <button id="play">Play</button>
         </p>
-        <p><button id="play"></button>play</button>
-        </p>
+
         <p id="Score">
-                <span>Wins: <span class="count" id="win-count">0</span></span>
-                <span>Losses: <span class="count" id="loss-count">0</span></span>
+            <p>Wins: 
+                <span class="count" id="win-count">0</span>
+            </p>
+
+            <p>Losses: 
+                <span class="count" id="loss-count">0</span>
+            </p>
+        </p>
     </main>
-    <script src="src/rock-paper-scissors.js"></script>
+
+    <script type="module" src="./rps-src/app.js"></script>
 </body>
 </html>
