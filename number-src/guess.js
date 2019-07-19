@@ -19,6 +19,9 @@ submitBtn.addEventListener('click', () => {
   //Show images
     if(result == 0) {
         correctImage.classList.remove('hidden');
+        if(result == 1) {
+            incorrectImage.classList.remove('hidden');
+        }
     }
 });
 console.log(messageInput.textContent); //.textContent is for spans

@@ -1,4 +1,4 @@
-import compareNumbers from '../src/compare-numbers.js';
+import compareNumbers from '../number-src/compare-numbers.js';
 const test = QUnit.test;
 //GUESS NUMBER FUNCTION
 function isGuessCorrect(guess, correctNumber) {

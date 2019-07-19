@@ -4,7 +4,7 @@ function compareNumbers(guess, actual) {
         return 1;
     }
   //returns 0 if guess is correct
-    else if(guess === actual) { 
+    else if(guess === actual) { //== equal signs
         return 0;
     }
   //returns -0 if quess is too low

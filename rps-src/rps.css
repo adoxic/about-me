@@ -1,0 +1,15 @@
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background: pink;
+}
+
+header > h1 {
+   color: red;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+}
